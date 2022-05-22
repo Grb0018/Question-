@@ -1,0 +1,179 @@
+#bg{
+    /*background-image: url(bg3.jpg);*/
+    background-image: url(https://drive.google.com/u/0/uc?id=1S9bBIDz6SZggWYhZdYilH9xboyRKYSQl&export=download);
+    background-size: cover;
+    height: 100%;
+    margin: 2% 0%;
+    width: 100%;
+    position: absolute;
+    font-family: 'Playfair Display SC', serif;
+}
+@media print {
+    li {
+      page-break-inside: avoid;
+    }}
+    #Pronoun{width: 35px;}
+#header{
+    height: auto;
+    display: none;
+    align-content: center;
+    flex-direction: column;
+    margin: 2% 10%;
+    background-color: #dedfdf;
+    padding: 2%;
+    width: 80%;
+    text-align: left;
+    font-family: 'Calibri',sans-serif;
+    font-size: 13.33px;
+}
+#prosel,#prosel1,#prosel2,#prosel3,#prosel4,#Noun1,#Noun2,#Noun3{
+    display:flex;
+    align-items: center;
+}
+#Noun1,#Noun2,#Noun3{
+    width: 98%;
+}
+#Startnoun2{
+    width:33vw;
+}
+#Startsentence1, #Startsentence2,#Startsentence3,#Startsentence4,#Startsentence5,#Startnoun1,#Startnoun2,#Startnoun3{
+    display:none;
+}
+#save{width: 1.12vw;padding-left: 10px;}
+#test{
+
+    width: 100%;
+    text-align: center;
+}
+#school{
+    
+    width: 100%;
+    text-align: center;
+
+}
+#marks{
+
+    margin-left: 10%;
+}
+#student{
+    margin-left: 10%;
+}
+#marksobt{
+    margin-left: 20%;
+
+}
+#Headchange{
+    width: 120;
+    height: 40px;
+    background-color: #cedfd9;
+    margin: 10px;
+    border: 0;
+}
+#selection{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 4vw;
+    background-color: #eeeeee;
+    border-bottom: 1px solid grey;
+    margin-bottom: 40px;
+    font-size: 1.28vw;
+    color:#553bd2;
+    box-shadow: 8px 4px 12px #ab80bdcc;
+    justify-content: space-between;
+}
+#pron,#noun{
+    margin: 1% 10%;
+}
+.tab{
+    padding-left: 20px;
+}
+#ol,#NOUN{
+    background-color: #e5c1ff94;
+    backdrop-filter: blur(4px);
+    margin-left: 3%;
+    padding: 20px;
+    width: 80vw;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    align-items: flex-start;
+    align-content: space-between;
+    border: 1px solid #9a90981f;
+    box-shadow: 10px 5px 20px #ccc9c9;
+    color: #100119;
+    border-radius: 4vw;
+}
+#ol{
+    position: absolute;
+    top: 1vw;
+}
+#NOUN{position: absolute;
+    top: 11vw;
+    font-size: 1.25vw;
+}
+#savepro,#saven{
+
+    margin-left: 40vw;
+    margin-top: 20px;
+    height: 2.5vw;
+    background-color: #5f15a2e0;
+    border: 0px;
+    color: whitesmoke;
+    width: 7vw;
+    font-size: 1.51vw;
+    border-radius: 1.2vw;
+    box-shadow: 2px 4px 1px #b858e5;
+    cursor: pointer;
+}
+#download,#pdf{
+    display:none;
+    margin: 2% 5%;
+    width: 15vw;
+    height: 3vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9vw;
+    border-radius: 1.05vw;
+    background-color: #0e2a78;
+    color: lightgrey;
+    padding: 25px;
+    border: 0;
+    box-shadow: 2px 5px 20px #4975c5;
+    font-family: 'Poppins';
+    border-top: 1px solid #979191;
+    border-right: 1px solid lightgrey;
+    cursor: pointer;
+}
+#savebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pdf{
+    margin-left: 2%;
+    align-items: center;
+}
+#download:hover{
+    transform:scale(1.1);
+}
+#pdf:hover{
+    transform:scale(1.1);
+}
+#paper{
+    background-color: #51179e;
+    margin: 0% 10%;
+    padding: 20px;
+    height: 75vh;
+    box-shadow: 11px 10px 15px #202020;
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#Headchangediv{
+    margin: 1% 10%;
+    left: 31vw;
+}
+#editp{margin-left: 67vw;color: rgb(0, 0, 0);display: none;}#svgp{display: none;width: 1.85vw;right: 8vw;position: absolute;}
+#editn{margin-left: 69vw;color: rgb(0, 0, 0);display: none;}#svgn{display: none;width: 1.85vw;right: 8vw;position: absolute;}
