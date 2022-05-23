@@ -12,12 +12,12 @@ function ChangeHead(){
 function Export2pdf(){
         var printContents = document.getElementById('header').innerHTML
         document.body.innerHTML = "<html><head><style></style><title></title></head><body>" + printContents + "</body></html>";
-       setTimeout(pnt,2000);   
+       setTimeout(pnt,1000);   
 }
 function pnt(){
     let a = window;
     a.print();
-    setTimeout(bck,2000);
+    setTimeout(bck,0000);
 }
 function bck(){
     var x= '<div id="paper" style="display: block;"><div id="header" style="display: flex;"><ol id="pron"></ol></div></div>'
