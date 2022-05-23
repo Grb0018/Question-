@@ -1,7 +1,7 @@
 #bg{
     background-image: url(bgm.jpg);
     /*background-image: url(https://drive.google.com/u/0/uc?id=1S9bBIDz6SZggWYhZdYilH9xboyRKYSQl&export=download);*/
-    background-size: cover;
+    background-size: 100%;
     height: 100%;
     margin: 2% 0%;
     width: 100%;
