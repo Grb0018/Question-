@@ -12,15 +12,19 @@ function ChangeHead(){
 function Export2pdf(){
         var printContents = document.getElementById('header').innerHTML
         document.body.innerHTML = "<html><head><style></style><title></title></head><body>" + printContents + "</body></html>";
-        window.print();
-        var x= '<div id="paper" style="display: block;"><div id="header" style="display: flex;"><ol id="pron"></ol></div></div>'
+        setTimeout(pnt,3000);
+      /*  var x= '<div id="paper" style="display: block;"><div id="header" style="display: flex;"><ol id="pron"></ol></div></div>'
         var y = '<span id="savebtn"><button id="download" onclick="Export2Word()" style="display: flex;">Download File<br>(As Doc. File)</button><button id="pdf" onclick="Export2pdf()" style="display: flex;">Print Now<br>(Save As PDF File)</button></span>'
         document.body.innerHTML = "<html><head><style></style><title></title></head><body>" + x + y + "</body></html>"
         document.getElementById('header').innerHTML = printContents;
         document.getElementById('download').style.display = 'flex';
     document.getElementById('pdf').style.display = 'flex';
-    document.getElementById('paper').style.display = 'block';
+    document.getElementById('paper').style.display = 'block'; */
 
+}
+function pnt(){
+    let a = window;
+    a.print();
 }
 function Export2Word(element, filename = ''){
     var preHtml = "<!DOCTYPE html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title></title></head><body>";
