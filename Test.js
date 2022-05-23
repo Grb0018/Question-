@@ -23,7 +23,7 @@ function pnt(){
 function bck(){
     var x= '<div id="paper" style="display: block;"><div id="header" style="display: flex;"><ol id="pron"></ol></div></div>'
     var y = '<span id="savebtn"><button id="download" onclick="Export2Word()" style="display: flex;">Download File<br>(As Doc. File)</button><button id="pdf" onclick="Export2pdf()" style="display: flex;">Print Now<br>(Save As PDF File)</button></span>'
-    document.body.innerHTML = "<html><head><style></style><title></title></head><body>" + x + y + "</body></html>"
+    document.body.innerHTML = "<html><head><link rel='stylesheet' href='style.css'><style></style><title></title></head><body>" + x + y + "</body></html>"
     document.getElementById('header').innerHTML = printContents;
     document.getElementById('download').style.display = 'flex';
 document.getElementById('pdf').style.display = 'flex';
