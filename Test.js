@@ -1,7 +1,7 @@
-
-//setTimeout(pre,0000);
 function ChangeHead(){
-    let x = document.getElementById('TestName').value;
+if(document.getElementById('TestName').value.length = 0 || document.getElementById('TotalMarks').value.length === 0
+    ){alert('Enter Test Name And Total Marks Properly')}else{
+        let x = document.getElementById('TestName').value;
     let y = document.getElementById('TotalMarks').value;
     document.getElementById('Headchangediv').style.display="none";
     document.getElementById('ChangePartdiv').style.display="block";
@@ -9,6 +9,7 @@ function ChangeHead(){
     document.getElementById('marks').innerText = "Marks: " + y;
     var o = document.getElementById('header').innerHTML;
     document.getElementById('header').innerHTML = o + "<ol id='pron'></ol>";
+    }
 }
 function Export2pdf(){
         var printContents = document.getElementById('header').innerHTML
